@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="com.madi.fullycustom.deviceadapte.app.fragments.DetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:id="@+id/chapter_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="@dimen/chapter_title_text_size"
+            android:gravity="center"/>
+    <TextView
+            android:id="@+id/chapter_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#666"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+</LinearLayout>
